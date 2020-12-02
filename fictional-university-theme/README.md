@@ -2,7 +2,7 @@
 
 This is the first WordPress site that I built based off of a Udemy class I purchased 
 called, "Become a WordPress Developer: Unlocking Power With Code," taught by Brad Schiff. 
-The follow is a link to the class I used:
+The following is a link to the class I used:
 
 https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/
 
