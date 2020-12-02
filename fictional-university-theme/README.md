@@ -13,4 +13,4 @@ Java with Springboot Security and Thymeleaf when one of the mentors suggested I 
 might have an easier time with WordPress and PHP.
 
 So, thus was born a new venture! I have a couple ideas (my artist website and a mock RPG inn 
-for players) I am going to try out once I finish this class so LOOK OUT for things to come!
+for players) that I am going to try out once I finish this class so LOOK OUT for things to come!
