@@ -16,16 +16,15 @@ get_header();
 <?php
 
     $today = date('Ymd');
-    $homePageEvents = new WP_Query(array(
-        'posts_per_page' => 2,
+    $pastEvents = new WP_Query(array(
+        'paged' => get_query_var('paged', 1),
         'post_type' => 'event',
         'meta_key' => 'event_date',
         'orderby' => 'meta_value_num',
-        'order' => 'ASC',
         'meta_query' => array(
           array(
             'key' => 'event_date',
-            'compare' => '>=',
+            'compare' => '<',
             'value' => $today,
             'type' => 'numeric'
           )
@@ -49,7 +48,9 @@ get_header();
         </div>
 
 <?php } 
-echo paginate_links();
+echo paginate_links(array(
+    'total' => $pastEvents->max_num_pages
+));
 
 ?>
 </div>
